@@ -636,10 +636,10 @@ export default function NSBeauty() {
         <div className="f-brand">NS <em>Beauty</em> by Ndeya</div>
         <div className="f-tagline">Maquilleuse pro avec déplacement · Gamme Nanty's Secret · Mode, Chaussures, Perruques & Lunettes · Paniers Shein</div>
         <div className="f-soc">
-          <a href="#" className="fsb" title="Instagram">📸</a>
-          <a href="#" className="fsb" title="WhatsApp">💬</a>
-          <a href="#" className="fsb" title="Facebook">👍</a>
-          <a href="#" className="fsb" title="TikTok">🎵</a>
+          <button className="fsb">📸</button>
+          <button className="fsb">💬</button>
+          <button className="fsb">👍</button>
+          <button className="fsb">🎵</button>
         </div>
       </div>
       <div className="fc"><div className="fc-t">Makeup</div><ul>{["Événement", "Mariée", "Shooting", "Cours", "Domicile"].map(l => <li key={l}>{l}</li>)}</ul></div>
